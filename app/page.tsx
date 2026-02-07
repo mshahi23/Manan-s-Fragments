@@ -1,17 +1,11 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white text-black">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4">
-          Status: <code className="font-bold ml-2 text-green-600">Development Mode</code>
-        </p>
-      </div>
-
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <div className="text-center mt-10">
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl mb-4">
           Thoughts & Hobbies
         </h1>
-        <p className="text-xl text-gray-500 max-w-2xl mx-auto">
+        <p className="text-xl light:text-gray-500 max-w-2xl mx-auto">
           A space for philosophy, political thoughts, and creative projects. 
           Built with Next.js for my professional portfolio.
         </p>
